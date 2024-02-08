@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Dr-Registration-form
+    </title>
+</head>
+
+<body>
+    <header>
+        <center>
+            <font color="orange">
+                <h1>Apollo Hospitals</h1>
+            </font>
+        </center>
+        <p align="center">
+        <a href="home.html" target="_blank"><b>About Apollo</b></a>&nbsp;&nbsp;&nbsp;|
+        <a href="branches.html" target="_blank"><b>Apollo Brances</b></a>&nbsp;&nbsp;&nbsp;|
+        <a href="services.html" target="_blank"><b>Apollo Services</b></a>&nbsp;&nbsp;&nbsp;|
+        <a href="contact.html" target="_blank"><b>Apollo Contact</b></a>&nbsp;&nbsp;&nbsp;|
+        <a href="#" target="_blank"><b>Doctor Signup</b></a>&nbsp;&nbsp;&nbsp;|
+        <a href="drLogin.html" target="_blank"><b>Doctor Signin</b></a>&nbsp;&nbsp;&nbsp;|
+        <a href="patientSignup.html" target="_blank"><b>Patient Signup</b></a>&nbsp;&nbsp;&nbsp;|
+        <a href="patientSignIn.html" target="_blank"><b>Patient Signin</b></a>
+        </p>
+    </header>
+    <hr>
+    <form action="server1" name="Dr-Registration-form" method="get">
+        <table cellspacing="25px" cellpadding="5px" align="center">
+            <caption><h3>Doctor Signup</h3></caption>
+            <tr>
+                <td><label for="id1">First Name</label>
+                    <br><input type="text" id="id1" name="First-Name">
+                </td>
+                <td><label for="id2">Last Name</label>
+                    <br><input type="text" id="id2" name="Last-Name">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="id3">Username</label>
+                    <br><input type="text" id="id3" name="Username">
+                </td>
+                <td><label for="id4">Password</label>
+                    <br><input type="password" id="id4" name="password">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="id5">Email Id</label>
+                    <br><input type="email" id="id5" name="email">
+                </td>
+                <td><label for="id6">Mobile No</label>
+                    <br><input type="Number" id="id6" name="phnumber">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="id7">Specialist in</label><br>
+                    <select name="Specialist in" id="id7">
+                        <option value="disabled selected hidden">Please Select a specalist</option>
+                        <option value="Anaesthesia"> Anaesthesia</option>
+                        <option value="ENT">ENT</option>
+                        <option value="DEntis">dentist</option>
+                        <option value="dietician">dietician</option>
+                        <option value="homoeopthy">homoeopthy</option>
+                    </select>
+                </td>
+                <td><label for="id8">Gender</label><br><input type="radio" name="gender" id="id8"><label
+                        for="id8">Male</label> <input type="radio" name="gender" id="id9"><label
+                        for="id9">Female</label><input type="radio" name="gender" id="id10"><label
+                        for="id10">Others</label></td>
+            </tr>
+            <tr>
+                <td><label for="id11">State</label><br>
+                    <select name="state" id="id11">
+                        <option value="disabled selected hidden">Please Select a State</option>
+                        <option value="Ap"> Ap</option>
+                        <option value="Ts">Ts</option>
+                        <option value="Tn">Tn</option>
+                        <option value="up">Up</option>
+                        <option value="ut">Ut</option>
+                    </select>
+                </td>
+                <td><label for="id12">City</label><br>
+                    <select name="City" id="id12">
+                        <option value="disabled selected hidden">Please Select a city</option>
+                        <option value="Ap-vij">vij</option>
+                        <option value="Ts-hyd">hyd</option>
+                        <option value="Tn-chennai">chennai</option>
+                        <option value="up-lucknow">luknow</option>
+                        <option value="ut-dehradun">dehradun</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="id13">Address</label><br>
+                    <textarea name="Address" id="id13" cols="10" rows="5"></textarea>
+                </td>
+                <td><label for="id14">code</label><br>
+                    <input type="text" id="id14" name="code">
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" value="Submit"></td>
+            </tr>
+
+        </table>
+    </form>
+    <br><br><br><br><br><hr>
+        <footer>
+            <center>
+                <font color="aqua" size="2px">copyright@360Digrii</font>
+            </center>
+        </footer>
+</body>
+
+</html>
