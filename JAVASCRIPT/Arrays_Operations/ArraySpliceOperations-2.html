@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Based on splice() function</title>
+    </head>
+    <body>
+        
+        <script>
+            //given array
+            let months =[2,3,4,5,6]
+            console.log(months)
+            //Insert 1 month number in 0 index
+            months.splice(0,0,1)
+            console.log(months)
+            //Insert 7 to 12 month number after 6th month 
+            months.splice(6,0,7,8,9,10,11,12)
+            console.log(months)
+            //Insert 91,92,93 month numbers after 9 element
+            months.splice(9,0,91,92,93)
+            console.log(months)
+            //Remove first 3 month numbers 
+            months.splice(0,3)
+            console.log(months)
+            //Remove 91,92,93 month numbers 
+            months.splice(6,3)
+            console.log(months)
+            //Add 1,2,3 month numbers in the begin,Remove 4,5 month numbers 
+            months.splice(0,2,1,2,3)
+            console.log(months)
+
+        </script>
+    </body>
+</html>
